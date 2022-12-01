@@ -13,6 +13,10 @@ If MsgBox("Do you want to continue ?" & vbNewLine & vbNewLine & "Click NO to can
  
 	WScript.Sleep 50
 	WshShell.SendKeys "{TAB}"
+	WshShell.SendKeys "{TAB}"
+	WshShell.SendKeys "{TAB}"
+	WshShell.SendKeys "{TAB}"	
+	WshShell.SendKeys "{TAB}"
  
 	WScript.Sleep 50
 	WshShell.SendKeys Contact
